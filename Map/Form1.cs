@@ -33,7 +33,7 @@ namespace Map
 
         private void SqlConnect()
         {
-            _connectionString = "Data Source=10.55.205.31;Initial Catalog=MapTest;User ID=sa;Password=Wen76Coda";
+            _connectionString = "Data Source=tcp:СВЕТА-ПК,49172;Initial Catalog=MapTest;User ID=WorkStation;Password=nikita1";
             _conn = new SqlConnection(_connectionString);
             _conn.Open();
             UpdateData();
